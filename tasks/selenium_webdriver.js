@@ -29,7 +29,7 @@ if (fs.existsSync('jar')) {
     phantomLoc += "/../node_modules/phantomjs/bin";
 } else {
     selOptions.push ( 'node_modules/grunt-selenium-webdriver/jar/selenium-server-standalone-2.39.0.jar' );    
-    phantomLoc += "/../../phantomjs/bin";
+    phantomLoc += "node_modules/phantomjs/bin";
 }
 
 /*
